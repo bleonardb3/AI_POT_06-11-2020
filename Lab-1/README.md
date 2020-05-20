@@ -16,3 +16,7 @@ After completing this lab, you will be able to perform the following exercises:
 7.	Train and create a machine learning (ML) annotator
 8.	Save and deploy the ML annotator to Watson Discovery
 
+### Step 1.  Please click on the link below to download the instructions to your machine.
+
+[Instructions](https://github.com/bleonardb3/AI_POT_06-11-2020/raw/master/Lab-1/.pdf).
+
