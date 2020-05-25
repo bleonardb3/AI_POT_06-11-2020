@@ -14,6 +14,5 @@ After completing this lab, you will be able to perform the following exercises w
 6.	Calculate the COVID-19 vulnerability index
 7.	Create a collection with a COVID-19 publication
 8.	Perform Smart Document Understanding
-9.	Apply NLP enrichments
-10.	Create and run natural language queries
-11.	Improve accuracy with Relevancy Training
+9.	Create and run Natural Language Queries
+10.	Improve accuracy with Relevancy Training
