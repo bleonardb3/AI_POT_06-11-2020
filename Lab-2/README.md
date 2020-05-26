@@ -16,3 +16,7 @@ After completing this lab, you will be able to perform the following exercises w
 8.	Perform Smart Document Understanding
 9.	Create and run Natural Language Queries
 10.	Improve accuracy with Relevancy Training
+
+### Step 1.  Please click on the link below to download the instructions to your machine.
+
+[Instructions](https://github.com/bleonardb3/AI_POT_06-11-2020/raw/master/Lab-2/Lab%202%20-%20Watson%20Discovery.pdf).
