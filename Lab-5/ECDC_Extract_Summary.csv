@@ -1,0 +1,210 @@
+COUNTRY_ID,Country/Region,CONTINENT_ID,LAT,LON,ATTRIBUTION,ATTRIBUTION_URL,New Confirmed,Confirmed Total,New Deaths,Deaths Total
+AF,Afghanistan,AS,33.8362671,66.0084477,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,492,8145,9,187
+AL,Albania,EU,41.1424821,20.0538192,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,15,964,0,31
+DZ,Algeria,AF,28.1488897,2.65309138,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,165,7542,7,568
+AD,Andorra,EU,42.5413265,1.56075624,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,1,762,0,51
+AO,Angola,AF,-12.292316,17.536985,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,2,52,1,3
+AI,Anguilla,NA,18.2256925,-63.058571,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,3,0,0
+AG,Antigua and Barbuda,NA,17.2843802,-61.791732,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,25,0,3
+AR,Argentina,SA,-35.387551,-65.178191,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,474,9270,10,403
+AM,Armenia,AS,40.2881342,44.9323012,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,230,5271,3,67
+AW,Aruba,NA,12.5169353,-69.974201,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,101,0,3
+AU,Australia,OC,-25.732311,134.491119,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,11,7079,1,100
+AT,Austria,EU,47.5856569,14.1306729,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,18,16275,1,633
+AZ,Azerbaijan,AS,40.289119,47.5421113,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,113,3631,2,43
+BS,Bahamas,NA,24.2228093,-76.551252,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,1,97,0,11
+BH,Bahrain,AS,26.0527843,50.5466194,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,356,7888,0,12
+BD,Bangladesh,AS,23.8456774,90.242,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,1617,26738,16,386
+BB,Barbados,NA,13.1810538,-59.561218,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,90,0,7
+BY,Belarus,EU,53.5318805,28.0335664,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,918,32426,4,179
+BE,Belgium,EU,50.6374616,4.63996051,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,192,55983,42,9150
+BZ,Belize,NA,17.2083187,-88.693889,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,18,0,2
+BJ,Benin,AF,9.64121669,2.32874073,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,130,0,2
+BM,Bermuda,NA,32.3101366,-64.763491,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,125,0,9
+BT,Bhutan,AS,27.4217566,90.4044602,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,21,0,0
+BO,Bolivia,SA,-16.706877,-64.684754,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,438,4919,10,199
+BQ,"Bonaire, Saint Eustatius and Saba",NA,,,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,6,0,0
+BA,Bosnia and Herzegovina,EU,44.1717341,17.773408,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,15,2334,2,135
+BW,Botswana,AF,-22.185772,23.7989867,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,4,29,0,1
+BR,Brazil,SA,-10.780859,-53.092482,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,19951,291579,888,18859
+VG,British Virgin Islands,NA,18.5098841,-64.502863,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,8,0,1
+BN,Brunei Darussalam,AS,4.51650031,114.727246,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,141,0,1
+BG,Bulgaria,EU,42.7685226,25.2175125,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,39,2331,4,120
+BF,Burkina Faso,AF,12.2695539,-1.7555277,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,3,809,0,52
+BI,Burundi,AF,-3.3574253,29.8750827,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,42,0,1
+CV,Cabo Verde,AF,15.9361402,-23.96724,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,14,349,0,3
+KH,Cambodia,AS,12.7155625,104.902804,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,122,0,0
+CM,Cameroon,AF,5.69305821,12.7369842,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,204,3733,6,146
+CA,Canada,NA,61.3764628,-98.293904,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,990,80091,118,6030
+KY,Cayman Islands,NA,19.4263312,-80.877026,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,111,0,1
+CF,Central African Republic,AF,6.56632186,20.4648092,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,411,0,0
+TD,Chad,AF,15.3330781,18.6462511,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,20,565,1,57
+CL,Chile,SA,-37.743606,-71.364375,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,4038,53617,35,544
+CN,China,AS,36.5601152,103.831572,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,2,84067,0,4638
+CO,Colombia,SA,3.90941305,-73.083842,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,752,17687,17,630
+KM,Comoros,AF,-11.884216,43.6801632,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,34,0,1
+CG,Congo,AF,-0.83888,15.2183362,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,420,0,15
+CR,Costa Rica,NA,9.97330952,-84.193598,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,15,897,0,10
+HR,Croatia,EU,45.0677262,16.3985488,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,2,2234,0,96
+CU,Cuba,NA,21.6252981,-79.035212,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,13,1900,0,79
+CW,Curaçao,NA,12.1938211,-68.971306,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,16,0,1
+CY,Cyprus,AS,34.915217,32.9899917,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,4,922,0,17
+CZ,Czechia,EU,49.7324482,15.3141031,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,74,8721,2,304
+CI,Côte d'Ivoire,AF,7.62796652,-5.5690002,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,78,2231,1,29
+CD,Democratic Republic of the Congo,AF,-2.8797999,23.6451137,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,104,1835,0,61
+DK,Denmark,EU,55.9653775,10.0513897,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,73,11117,3,554
+DJ,Djibouti,AF,11.7501559,42.5664537,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,310,1828,2,9
+DM,Dominica,NA,15.4364405,-61.356918,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,16,0,0
+DO,Dominican Republic,NA,18.8963659,-70.496587,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,254,13477,5,446
+EC,Ecuador,SA,-1.4262415,-78.772282,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,703,34854,49,2888
+EG,Egypt,AF,26.4929196,29.8612087,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,745,14229,21,680
+SV,El Salvador,NA,13.7358496,-88.871033,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,73,1571,1,32
+GQ,Equatorial Guinea,AF,1.70696104,10.3328855,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,890,0,7
+ER,Eritrea,AF,15.3575137,38.8529444,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,39,0,0
+EE,Estonia,EU,58.6710142,25.5357932,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,3,1794,0,64
+SZ,Eswatini,AF,-26.561914,31.4800241,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,9,217,0,2
+ET,Ethiopia,AF,8.62295174,39.600551,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,24,389,0,5
+FK,Falkland Islands (Malvinas),SA,-51.733307,-59.376103,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,13,0,0
+FO,Faroe Islands,EU,62.0740273,-6.8705548,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,187,0,0
+FJ,Fiji,OC,-17.447562,163.407848,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,18,0,0
+FI,Finland,EU,64.495359,26.270795,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,44,6443,3,304
+FR,France,EU,,,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,418,143845,110,28132
+PF,French Polynesia,OC,-15.18878,-145.05204,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,60,0,0
+GA,Gabon,AF,-0.5916559,11.7895693,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,65,1567,0,12
+GM,Gambia,AF,13.4497296,-15.397582,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,24,0,1
+GE,Georgia,AS,42.1688008,43.5075263,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,6,713,0,12
+DE,Germany,EU,51.1063635,10.3814938,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,745,176752,57,8147
+GH,Ghana,AF,7.95395472,-1.2165238,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,173,6269,0,31
+GI,Gibraltar,EU,36.1294637,-5.3467003,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,2,149,0,0
+GR,Greece,EU,39.0511812,22.9748189,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,10,2850,1,166
+GL,Greenland,NA,74.7359906,-41.345739,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,11,0,0
+GD,Grenada,NA,12.1533724,-61.656682,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,22,0,0
+GU,Guam,OC,13.443793,144.771939,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,11,165,0,5
+GT,Guatemala,NA,15.6960165,-90.360157,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,132,2265,2,45
+GG,Guernsey,EU,49.4843729,-2.53048,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,252,0,13
+GN,Guinea,AF,10.4346491,-10.943061,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,2863,0,18
+GW,Guinea-Bissau,AF,12.0269219,-14.977514,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,1038,0,6
+GY,Guyana,SA,4.79346187,-58.980115,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,125,0,10
+HT,Haiti,NA,18.9383714,-72.690874,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,596,0,22
+VA,Holy See,EU,41.9033125,12.4534177,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,12,0,0
+HN,Honduras,NA,14.8210094,-86.625227,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,145,3100,4,151
+HU,Hungary,EU,47.1632437,19.3967593,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,43,3641,3,473
+IS,Iceland,EU,64.9983158,-18.596446,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,1,1803,0,10
+IN,India,AS,22.8879525,79.6157216,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,5609,112359,132,3435
+ID,Indonesia,AS,-2.222961,117.270433,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,693,19189,21,1242
+IR,Iran,AS,32.5706782,54.2769467,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,2346,126949,64,7183
+IQ,Iraq,AS,33.0398038,43.744977,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,113,3724,3,134
+IE,Ireland,EU,53.1782214,-8.1450447,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,64,24315,10,1571
+IM,Isle of Man,EU,54.2291019,-4.5336951,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,1,336,0,24
+IL,Israel,AS,31.4439606,34.9960343,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,20,16670,2,279
+IT,Italy,EU,42.786434,12.0719071,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,665,227364,161,32330
+JM,Jamaica,NA,18.1552264,-77.31881,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,9,529,0,9
+JP,Japan,AS,37.5511774,137.978348,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,39,16424,6,777
+JE,Jersey,EU,49.2210642,-2.1274308,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,3,306,1,29
+JO,Jordan,AS,31.2455741,36.7709218,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,23,672,0,9
+KZ,Kazakhstan,AS,48.1606519,67.2959646,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,265,7234,0,35
+KE,Kenya,AF,0.55076608,37.8224399,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,66,1029,0,50
+XK,Kosovo,EU,42.5728834,20.8737432,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,989,0,29
+KW,Kuwait,AS,29.3400421,47.5946235,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,804,17568,3,124
+KG,Kyrgyzstan,AS,41.4619187,74.5416694,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,43,1313,0,14
+LA,Lao People's Democratic Republic,AS,18.5023015,103.737872,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,19,0,0
+LV,Latvia,EU,56.8518195,24.9086224,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,4,1016,0,21
+LB,Lebanon,AS,33.9203593,35.8799366,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,7,961,0,26
+LS,Lesotho,AF,-29.57973,28.2286229,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,1,0,0
+LR,Liberia,AF,6.45223256,-9.319864,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,5,238,0,23
+LY,Libya,AF,27.030278,18.0096051,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,1,69,0,3
+LI,Liechtenstein,EU,47.1382064,9.54090029,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,83,0,1
+LT,Lithuania,EU,55.3270236,23.888249,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,15,1577,0,60
+LU,Luxembourg,EU,49.7668243,6.07176397,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,13,3971,0,109
+MG,Madagascar,AF,-19.373168,46.7059983,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,45,371,0,2
+MW,Malawi,AF,-13.217226,34.2899078,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,1,72,0,3
+MY,Malaysia,AS,3.79239285,109.698868,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,31,7009,0,114
+MV,Maldives,AS,3.82777981,73.3022772,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,43,1186,0,4
+ML,Mali,AF,17.3441628,-3.5390794,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,30,931,2,55
+MT,Malta,EU,35.921027,14.403754,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,24,584,0,6
+MR,Mauritania,AF,20.2562181,-10.343398,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,50,131,0,4
+MU,Mauritius,AF,-20.185544,57.8497002,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,332,0,10
+MX,Mexico,NA,23.9491712,-102.53031,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,2248,56594,424,6090
+MC,Monaco,EU,43.7398462,7.39897433,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,97,0,5
+MN,Mongolia,AS,46.8258061,103.056287,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,140,0,0
+ME,Montenegro,EU,42.7858181,19.2385003,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,324,0,9
+MS,Montserrat,NA,16.7375236,-62.187399,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,11,0,1
+MA,Morocco,AF,29.8416921,-8.3964351,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,110,7133,1,194
+MZ,Mozambique,AF,-17.27001,35.5381055,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,10,156,0,0
+MM,Myanmar,AS,21.1676699,96.4892894,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,6,199,0,6
+NA,Namibia,AF,-22.129247,17.2111332,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,16,0,0
+NP,Nepal,AS,28.2479222,83.9162534,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,42,444,0,2
+NL,Netherlands,EU,52.0697917,5.21681421,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,198,44447,33,5748
+NC,New Caledonia,OC,-21.30434,165.702655,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,18,0,0
+NZ,New Zealand,OC,-41.829522,171.470691,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,1153,0,21
+NI,Nicaragua,NA,12.8453926,-85.033338,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,25,0,8
+NE,Niger,AF,17.4184638,9.386034,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,6,920,3,58
+NG,Nigeria,AF,9.59531483,8.09123928,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,276,6677,8,200
+MK,North Macedonia,EU,41.5950049,21.6838304,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,19,1858,4,110
+MP,Northern Mariana Islands,OC,16.2508598,145.599955,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,1,22,0,2
+NO,Norway,EU,,,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,11,8268,1,234
+OM,Oman,AS,20.6018057,56.0926565,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,372,6043,3,30
+PK,Pakistan,AS,29.9484968,69.3413431,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,2193,48091,32,1017
+PA,Panama,NA,8.51455697,-80.121295,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,110,9977,6,287
+PG,Papua New Guinea,OC,-6.4701206,145.231524,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,8,0,0
+PY,Paraguay,SA,-23.227519,-58.398423,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,4,833,0,11
+PE,Peru,SA,-9.1543885,-74.378065,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,4537,104020,110,3024
+PH,Philippines,AS,11.7630151,122.874484,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,279,13221,5,842
+PL,Poland,EU,52.1247718,19.3943221,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,471,19739,14,962
+PT,Portugal,EU,39.5871469,-8.5908376,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,228,29660,16,1263
+PR,Puerto Rico,NA,18.2238165,-66.4676,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,61,2866,1,125
+QA,Qatar,AS,25.3130746,51.1868313,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,1491,37097,1,16
+KR,Republic of Korea,AS,36.3733536,127.819094,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,12,11122,1,264
+MD,Republic of Moldova,EU,47.1951015,28.4613971,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,213,6553,7,228
+RO,Romania,EU,45.8534641,24.9729419,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,196,17387,15,1141
+RU,Russian Federation,EU,61.9668529,96.6275884,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,8764,308705,135,2972
+RW,Rwanda,AF,-1.9927505,29.9190607,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,6,314,0,0
+KN,Saint Kitts and Nevis,NA,17.2710423,-62.698545,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,15,0,0
+LC,Saint Lucia,NA,13.9026706,-60.970317,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,18,0,0
+VC,Saint Vincent and the Grenadines,NA,13.2162159,-61.203353,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,1,18,0,0
+SM,San Marino,EU,43.9364662,12.4422226,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,1,656,0,41
+ST,Sao Tome and Principe,AF,0.44426004,6.72644287,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,251,0,8
+SA,Saudi Arabia,AS,24.1223271,44.5368637,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,2691,62545,10,339
+SN,Senegal,AF,14.3677886,-14.471306,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,97,2714,0,30
+RS,Serbia,EU,44.2213759,20.7904025,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,100,10833,1,235
+SC,Seychelles,AF,-6.4899905,52.0622919,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,11,0,0
+SL,Sierra Leone,AF,8.56308584,-11.795016,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,36,570,1,34
+SG,Singapore,AS,1.35892102,103.813468,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,570,29364,0,22
+SX,Sint Maarten,NA,18.0406305,-63.070133,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,77,0,15
+SK,Slovakia,EU,48.7049353,19.480383,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,1,1496,0,28
+SI,Slovenia,EU,46.116111,14.8080896,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,1,1468,1,105
+SO,Somalia,AF,4.74883679,45.7061444,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,71,1573,2,61
+ZA,South Africa,AF,-29.001032,25.0873644,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,803,18003,27,339
+SS,South Sudan,AF,7.28353071,30.3011196,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,285,0,6
+ES,Spain,EU,40.2272337,-3.652637,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,232555,0,27888
+LK,Sri Lanka,AS,7.61591405,80.7031628,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,1,1028,0,9
+PS,State of Palestine,AS,31.9160834,35.1978124,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,7,577,0,4
+SD,Sudan,AF,15.9868812,29.9396178,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,137,2728,6,111
+SR,Suriname,SA,4.13124498,-55.911071,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,11,0,1
+SE,Sweden,EU,62.7770999,16.7544664,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,724,31523,88,3831
+CH,Switzerland,EU,46.7989569,8.21535366,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,40,30575,16,1629
+SY,Syrian Arab Republic,AS,35.0230023,38.5045644,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,58,0,3
+TW,Taiwan,AS,23.7529851,120.949875,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,1,441,0,7
+TJ,Tajikistan,AS,38.5298857,71.0158342,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,207,1936,3,44
+TH,Thailand,AS,15.1144,101.003333,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,3034,0,56
+TL,Timor-Leste,AS,-8.8237787,125.851076,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,24,0,0
+TG,Togo,AF,8.52678821,0.9622716,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,2,340,0,12
+TT,Trinidad and Tobago,NA,10.4688299,-61.25845,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,116,0,8
+TN,Tunisia,AF,34.1194052,9.55462625,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,1,1045,0,47
+TR,Turkey,EU,39.0610806,35.1672394,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,972,152587,23,4222
+TC,Turks and Caicos Islands,NA,21.7800454,-71.873307,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,12,0,1
+UG,Uganda,AF,1.27569119,32.3670399,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,4,264,0,0
+UA,Ukraine,EU,49.1600783,31.2553061,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,354,19230,16,564
+AE,United Arab Emirates,AS,23.9057831,54.3007956,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,941,26004,6,233
+GB,United Kingdom,EU,54.1470482,-2.8869515,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,-525,248293,363,35704
+TZ,United Republic of Tanzania,AF,-6.2750975,34.8135864,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,509,0,21
+US,United States of America,NA,45.6881134,-112.49573,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,23285,1551853,1518,93439
+UY,Uruguay,SA,-32.798211,-56.017155,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,8,746,0,20
+UZ,Uzbekistan,AS,41.7560359,63.1399089,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,70,2950,0,13
+VE,Venezuela,SA,7.12773154,-66.16884,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,75,824,0,10
+VN,Viet Nam,AS,16.6421828,106.300935,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,324,0,0
+VI,Virgin Islands,NA,17.9805456,-64.797654,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,69,0,6
+EH,Western Sahara,AF,24.2325606,-12.214962,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,0,6,0,0
+YE,Yemen,AS,15.9054213,47.5906019,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,13,180,1,29
+ZM,Zambia,AF,-13.46011,27.7742123,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,60,832,0,7
+ZW,Zimbabwe,AF,-19.002537,29.8518846,European Centre for Disease Prevention and Control,https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/,2,48,0,4
