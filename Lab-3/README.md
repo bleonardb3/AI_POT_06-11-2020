@@ -1,4 +1,5 @@
-# 
+# Create a COVID-19 Chatbot
+
 ## Introduction
 This lab will build a chatbot to respond to questions about COVID-19. Watson Assistant and Watson Discovery services from IBM will be used to build the chatbot. 
 
