@@ -1,174 +1,222 @@
-# Introduction
+Introduction
+============
+
+This lab will introduce users to the use of IBM\'s predictive analytics
+and decision optimization technologies to solve COVID-19 problems. The
+coronavirus has infected millions people leading to sever illness
+symptoms resulting in hundreds of thousands deaths. During the initial
+outbreak not all areas where effected the same. Hospitals located in
+COVID-19 epidemic outbreak locations were overwhelmed with sick and
+dying patients. This lab will apply predictive analytics to analyze
+different factors among people to predict future COVID-19 infection
+rates in an area. Based on areas predicted to have high COVID-19
+infections -- this lab will apply optimization techniques to optimize
+the planning of transferring COVID-19 patients from hospitals located in
+epidemic areas to hospitals with less COVID-19 patients. Our hope is to
+educate people who are involved in the COVID-19 response decision-making
+process, in applying IBM\'s predictive and optimization technologies to
+help them improve planning and responding to next wave of COVID-19
+cases.
 
-This lab will introduce users to the use of IBM&#39;s predictive analytics and decision optimization technologies to solve COVID-19 problems. The coronavirus has infected millions people leading to sever illness symptoms resulting in hundreds of thousands deaths. During the initial outbreak not all areas where effected the same. Hospitals located in COVID-19 epidemic outbreak locations were overwhelmed with sick and dying patients. This lab will apply predictive analytics to analyze different factors among people to predict future COVID-19 infection rates in an area. Based on areas predicted to have high COVID-19 infections – this lab will apply optimization techniques to optimize the planning of transferring COVID-19 patients from hospitals located in epidemic areas to hospitals with less COVID-19 patients. Our hope is to educate people who are involved in the COVID-19 response decision-making process, in applying IBM&#39;s predictive and optimization technologies to help them improve planning and responding to next wave of COVID-19 cases.
+Objectives
+==========
 
-## Planning the transfers
+The goal of this lab is to educate user on how to apply IBM predictive
+analytics and optimization tools to different applications of COVID-19
+like (1) predicting future infections and (2) optimizing response for
+better decision making. Students will use Watson Studio to load and step
+through a notebook that applies Decision Optimization to optimize the
+transport of affected people between hospitals to avoid being
+overcapacity. Working through this notebook -- we intend students learn
+these skills.
 
-These days, one of the critical problem for our governments is to manage the heterogeneous propagation of the virus over the territories. Not all areas are infected at the same level. While confinement of the population and prohibition of travel is reducing the propagation of the virus, the transfer of sick people between different areas can reduce the stress of hospitals in the most critical regions. In France, transfers are now generalized, using military planes (see here or here), helicopters or high-speed trains, but also locally with ambulances.
+1.  Learn how to load data form different places (departments, current
+    situation, etc) to be used for analysis.
 
-The problem of finding optimal ways to relocate sick people among areas can benefit from a combination of Machine Learning (ML) and Decision Optimization (DO).
+2.  Learn how to represent the current situation on a map using folium.
+    folium makes it easy to visualize data that\'s been manipulated in
+    Python on an interactive leaflet map. 
 
-Based on the recent evolution of the number of critical reanimation cases in each area, predictive models can be trained to forecast the evolution per area on the coming days. This data, in addition to the capacity of the hospitals for each of the areas and some description of the constraints applying on the possible transfers can then be used in a decision optimization model. This schema where Machine Learning is used first to extract additional unknown information and Decision Optimization is used to prescribe the best next actions is very common.
+3.  Learn how to use a LinearRegression from sklearn to predict new
+    cases to come for each department.
 
-# Objectives
+4.  Learn how to use Decision Optimization to model and optimize plan
+    transfers.
 
-The goal of this lab is to educate user on how to apply IBM predictive analytics and optimization tools to different applications of COVID-19 like (1) predicting future infections and (2) optimizing response for better decision making. Students will use Watson Studio to load and step through a notebook that applies Decision Optimization to optimize the transport of affected people between hospitals to avoid being overcapacity. Working through this notebook – we intend students learn these skills.
+5.  Learn how to use folium to display the optimized future patient
+    transfers plan i.e. all the transfers from the solution.
 
-1. Learn how to load data form different places (departments, current situation, etc) to be used for analysis.
-2. Learn how to represent the current situation on a map using folium. folium makes it easy to visualize data that&#39;s been manipulated in Python on an interactive leaflet map.
-3. Learn how to use a LinearRegression from sklearn to predict new cases to come for each department.
-4. Learn how to use Decision Optimization to model and optimize plan transfers.
-5. Learn how to use folium to display the optimized future patient transfers plan i.e. all the transfers from the solution.
+Prerequisites
+=============
 
-# Example notebook
+1.  Open a web browser and enter this URL \>
+    <https://dataplatform.cloud.ibm.com/>
 
-You can find [here an example notebook](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/1cea8b5b-1a50-4061-9257-751cee3d75bd/view?access_token=905e3d02e5ff645df5189b9b4010b072ae0d57befbdaea15f135590a0cfe82fc). This is a very simplistic prototype to illustrate how both technologies could collaborate, but a real solution would require a subject matter expert to ensure that the right data is used, and the right constraints and objectives are taken into account. This model formulation is very standard process in Decision Optimization projects and can take from days to months, depending on the complexity of the problem.
+2.  If you already have a Watson Studio account please \"Log In\" and
+    skip to section \" Create a Watson Studio project and set up the
+    required services\".
 
-## **Import and display input data**
+3.  Else click \"Sign Up\" to create a Watson studio account.
 
-We use data from the French government [data.gouv.fr](https://www.data.gouv.fr/fr/)site: [https://www.data.gouv.fr/fr/datasets/donnees-relatives-a-lepidemie-de-covid-19/#\_](https://www.data.gouv.fr/fr/datasets/donnees-relatives-a-lepidemie-de-covid-19/#_) in addition to some imported data on the different French administrative &quot;departments&quot; (GPS coordinates of frontier and center).
+![A screenshot of a cell phone screen with text Description
+automatically generated](media/image1.png){width="6.5in" height="2.7in"}
 
-Using Folium, we can easily represent this data on a map. The circles show the number of reanimation cases in each department. Red circles show above normal capacity.
+4.  Pick an IBM Cloud region near you. Enter your email address as your
+    user account. Click on \"Accept\" terms & conditions. Click \"Next\"
+    button.
 
-![](RackMultipart20200618-4-z9fy1x_html_bd69e0763d83d141.png)
+![A screenshot of a cell phone Description automatically
+generated](media/image2.png){width="6.5in" height="4.35625in"}
 
-Current situation
+5.  Enter a password \> click \"Next\" button.
 
-## **Simplistic predictive model**
+![A screenshot of a cell phone Description automatically
+generated](media/image3.png){width="3.388888888888889in"
+height="5.231968503937008in"}
 
-![](RackMultipart20200618-4-z9fy1x_html_1796fdb038d13c85.gif)A very simplistic predictive model is trained for illustration. We use LinearRegression from sklearn, knowing obviously that the epidemy is not linear at all. But this gives an idea of how ML would work here.
+6.  Verify your account. Enter the verification code sent to your email
+    address. Click \"Next\" button.
 
-import numpy as np
-from sklearn.linear\_model import LinearRegressionNB\_PERIODS = 3def predict\_more(d, n):
- X = hosp\_data[d].index.tolist()
- X.reverse()
- X=np.array(X).reshape(-1,1)
- y = hosp\_data[d][&#39;rea&#39;].tolist()
- y.reverse()
- y=np.array(y).reshape(-1,1)regsr=LinearRegression()
- regsr.fit(X,y)to\_predict\_x = [i for i in range(len(X), len(X)+n)]
- to\_predict\_x= np.array(to\_predict\_x).reshape(-1,1)
- predicted\_y= regsr.predict(to\_predict\_x)
- delta\_y = [int(round(max(0, predicted\_y[i][0]-y[len(y)-1][0]))) for i in range(n)]
- return delta\_ynew\_rea ={ d:predict\_more(d, NB\_PERIODS) for d in deps}
-print (new\_rea)
+![A screenshot of a cell phone Description automatically
+generated](media/image4.png){width="3.9444444444444446in"
+height="3.02127624671916in"}
 
-The outcome is a prediction of the expected number of new reanimation cases to occur in the next few days we will plan (here NB\_PERIODS = 3).
+7.  Enter your personal information. Click \"Next\" button.
 
-## Sample Decision Optimization model
+![A screenshot of a cell phone Description automatically
+generated](media/image5.png){width="4.819444444444445in"
+height="4.80090769903762in"}
 
-Our hypothesis for the optimization model is that two different types of transfers can be done:
+8.  Please indicate if and how IBM can keep you informed on IBM\'s
+    products services. Click \"Create account\" button.
 
-- long distance transfers (planes, trains) with the number of transfers limited over the whole country, several people can be transferred at a time.
-- short distance transfers (ambulances) with the number of transfers limited per area, and with just one person at a time.
+![A screenshot of a social media post Description automatically
+generated](media/image6.png){width="4.652777777777778in"
+height="2.956700568678915in"}
 
-![](RackMultipart20200618-4-z9fy1x_html_6f8eef370bff7a1c.gif)The parameters we use (completely invented) are:
+Note: Users will see an account progress bar. Click \"Login\" button to
+login to your account.
 
-MAX\_NB\_LONG\_TRANSFERS\_PER\_PERIOD = 3
-MAX\_CASES\_PER\_LONG\_TRANSFERS = 20
+![A picture containing clock Description automatically
+generated](media/image7.png){width="3.5416666666666665in"
+height="3.413417541557305in"}
 
-MAX\_NB\_SHORT\_TRANSFERS\_PER\_DEPARTMENT = 3
+Create a Watson Studio project and set up the required services.
+----------------------------------------------------------------
 
-LONG\_DISTANCE = 200
+1.  Enter the Watson Studio URL in a web browser -\>
+    <https://dataplatform.cloud.ibm.com/>. Login to your Watson Studio
+    account.
 
-![](RackMultipart20200618-4-z9fy1x_html_ce2c89ba860a3a6b.gif)We use our docplexAPI to model the problem:
+2.  Click \"Get Started\" button.
 
-from docplex.mp.model import Model
-mdl = Model(&quot;Plan Transfers&quot;)
+> ![A screenshot of a cell phone Description automatically
+> generated](media/image8.png){width="4.166666666666667in"
+> height="2.7412751531058617in"}
 
-![](RackMultipart20200618-4-z9fy1x_html_8ae41d852e0f3775.gif)The decision variables represent the transfer links to be used in the best (optimal) transfer plan (an integer variable for the number of persons transferred and a binary variable indicating whether the link is used or not, with a constraint linking both). Another set of auxiliary variables represents the occupancy for each department and each period.
+3.  Click \"Maybe later\" for the introduction tour.
 
-use\_link\_vars = mdl.binary\_var\_cube(deps, deps, transfer\_periods, name=&quot;use\_link&quot;)
-link\_vars = mdl.integer\_var\_cube(deps, deps, transfer\_periods, lb=0, ub=MAX\_CASES\_PER\_LONG\_TRANSFERS, name=&quot;link&quot;)
-occupancy\_vars = mdl.integer\_var\_matrix(deps, all\_periods, lb=0, name=&quot;occupancy&quot;)
+![A screenshot of a cell phone Description automatically
+generated](media/image9.png){width="6.5in"
+height="2.6069444444444443in"}
 
-![](RackMultipart20200618-4-z9fy1x_html_b0d34de0a116149c.gif)Then we formulate all the constraints:
+4.  Click \"Create a project\" button.
 
-# Initial state
-mdl.add\_constraints(occupancy\_vars[d, 0] == initial[d] for d in deps)
+![A screenshot of a cell phone Description automatically
+generated](media/image10.png){width="6.5in"
+height="2.6951388888888888in"}
 
-# structural constraint between user\_link and link
-mdl.add\_constraints(use\_link\_vars[d, d1, t] == (link\_vars[d, d1, t] \&gt;= 1) for d in deps for d1 in deps for t in transfer\_periods)
+5.  Click on \"Create an empty project\".
 
-# Short transfers bounds
-mdl.add\_constraints(link\_vars[d1, d2, t] \&lt;= 1 for d1 in deps for d2 in deps if not is\_long[d1][d2] for t in transfer\_periods)
+![A screenshot of a cell phone Description automatically
+generated](media/image11.png){width="4.930555555555555in"
+height="2.251936789151356in"}
 
-# number of transfers from a department less than current number of cases
-mdl.add\_constraints(mdl.sum(link\_vars[d, d1, t] for d1 in deps) \&lt;= occupancy\_vars[d, t] for d in deps for t in transfer\_periods)
+6.  Enter a project name; e.g. \"COVID-19 Decision Making\". Enter a
+    description (optional) \" This project will apply predictive
+    analytics and optimization techniques to predict COVID-19 infections
+    in areas and optimize response to transfer COVID-19 patients to less
+    occupied COVIDD-19 hospitals.\"
 
-# maximum number of LONG transfers
-mdl.add\_constraints(mdl.sum(use\_link\_vars[d1, d2, t] for d1 in deps for d2 in deps if is\_long[d1][d2]) \&lt;= MAX\_NB\_LONG\_TRANSFERS\_PER\_PERIOD for t in transfer\_periods)
+7.  Check \"Restrict who can be a collaborator\".
 
-# maximum number of SHORT transfers
-mdl.add\_constraints(mdl.sum(use\_link\_vars[d1, d2, t] for d1 in deps if not is\_long[d1][d2] for t in transfer\_periods) \&lt;= MAX\_NB\_SHORT\_TRANSFERS\_PER\_DEPARTMENT for d2 in deps )
+8.  If you already have an Object Storage\" instance -- please select it
+    from the \"Select storage service\" selection box. Click \"Create\"
+    button. Next, proceed to the section \"Adding a Machine Learning
+    Service\" below.
 
-# conservation constraints including new cases to come
-mdl.add\_constraints(occupancy\_vars[d, t+1] == new\_rea[d][t] + occupancy\_vars[d, t] + mdl.sum(link\_vars[d1, d, t] for d1 in deps) - mdl.sum(link\_vars[d, d1, t] for d1 in deps) for d in deps for t in transfer\_periods)
+![A screenshot of a cell phone Description automatically
+generated](media/image12.png){width="6.5in" height="3.025in"}
 
-![](RackMultipart20200618-4-z9fy1x_html_731bf3cd34a6168e.gif)And the objectives. The main objective is to reduce the total overcapacity on the areas, but we should also limit unnecessary transfers.
+9.  Else click on the \"Cloud Object Storage\" URL.
 
-final\_overcapacity = mdl.sum(mdl.max(0, occupancy\_vars[d, NB\_PERIODS] - capacity[d]) for d in deps) mdl.add\_kpi(final\_overcapacity)
+![A screenshot of a social media post Description automatically
+generated](media/image13.png){width="3.6666666666666665in"
+height="3.1040069991251094in"}
 
-nb\_long\_transfers = mdl.sum(use\_link\_vars[d1, d2, t] for d1 in deps for d2 in deps if is\_long[d1][d2] for t in transfer\_periods)
-mdl.add\_kpi(nb\_long\_transfers)
+10. Click the \"Lite\" plan. Enter a service name for your \"Object
+    Storage\' service. Click \"Create\" button.
 
-![](RackMultipart20200618-4-z9fy1x_html_e6f6f596082e4016.gif)nb\_short\_transfers = mdl.sum(use\_link\_vars[d1, d2, t] for d1 in deps for d2 in deps if not is\_long[d1][d2] for t in transfer\_periods)
-mdl.add\_kpi(nb\_short\_transfers)
+![A screenshot of a social media post Description automatically
+generated](media/image14.png){width="6.5in"
+height="4.498611111111111in"}
 
-mdl.minimize(1000 \* final\_overcapacity + 10 \* nb\_long\_transfers + nb\_short\_transfers)
+11. Select your \"Cloud Object Storage\" service name from the \"Select
+    storage service\" selection box. Click \"Create\" button.
 
-![](RackMultipart20200618-4-z9fy1x_html_ea618318a01465ee.gif)We can then solve the problem (using the CPLEX engine) and get the prescribed decisions.
+![A screenshot of a cell phone Description automatically
+generated](media/image12.png){width="6.5in" height="3.025in"}
 
-mdl.set\_time\_limit(20)
-mdl.solve(log\_output=True)
+Adding a Machine Learning Service
+---------------------------------
 
-## Display the solution
+1.  Click on the project Settings tab.
 
-Using the same Folium package, we can represent the proposed transfers on a map.
- The long-distance transfers are represented in green and the short distance ones in black.
+![A screenshot of a cell phone Description automatically
+generated](media/image15.png){width="6.5in"
+height="2.5881944444444445in"}
 
-![](RackMultipart20200618-4-z9fy1x_html_c5b0cfba072ba713.png)
+2.  Scroll down to Associated Services, then select Add service and
+    select Watson.
 
-Proposed solution.
+![A screenshot of a cell phone Description automatically
+generated](media/image16.png){width="6.5in"
+height="2.484722222222222in"}
 
-## Conclusions
+3.  Select the Machine Learning service.
 
-I want to insist again on the fact this is not a ready-to-use solution, but a demonstration of how ML and DO technology could be used to propose mathematically optimal transfer decisions.
+![A screenshot of a cell phone Description automatically
+generated](media/image17.png){width="6.5in"
+height="2.5833333333333335in"}
 
-You can find [here the complete notebook](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/1cea8b5b-1a50-4061-9257-751cee3d75bd/view?access_token=905e3d02e5ff645df5189b9b4010b072ae0d57befbdaea15f135590a0cfe82fc).
+4.  Select New.
 
-In practice, additional data, constraints and objectives should be taken into account. For example, we can easily imagine that the level of criticality of individual infected persons would be taken into account. Also the characteristics of hospitals in the different areas, including the neighborhood of the airport or train station, should be taken into account.
+![A screenshot of a cell phone Description automatically
+generated](media/image18.png){width="5.652777777777778in"
+height="3.134996719160105in"}
 
-Note also my model only considered transfers within France, while some transfers already took place from France to Germany and Luxembourg.
+5.  Select the Lite plan.
 
-**This notebook is hence only provided as an example which can be used to discover or learn optimization. ** You can freely try this notebook on [Watson Studio Cloud](https://dataplatform.cloud.ibm.com/home?context=wdp).
+![A screenshot of a social media post Description automatically
+generated](media/image19.png){width="6.5in"
+height="2.8048611111111112in"}
 
-If you are in a position to use such technology in practice for the Covid-19 situation, don&#39;t hesitate to contact us, we are willing to help.
+6.  Scroll down and click Create, then change the Service name to
+    Machine Learning in the Confirm Creation panel and click Confirm.
 
-**IBM USA**
+![A screenshot of a social media post Description automatically
+generated](media/image20.png){width="6.5in"
+height="2.8041666666666667in"}
 
-Lee Angelelli
+7.  The Machine Learning service that you created should now appear in
+    Associated Services.
 
-Executive Client Architect
+![](media/image21.png){width="6.5in" height="0.55625in"}
 
-IBM Global Markets
+Instructions
+============
 
-[langelel@us.ibm.com](mailto:langelel@us.ibm.com)
+Please click on the link below to download the instructions to your
+machine.
 
-**IBM France**
-
-Alain Chabrier
-
-STSM - Decision Optimization
-
-IBM Cloud and Cognitive Software
-
-[Alain.chabrier@ibm.com](mailto:Alain.chabrier@ibm.com)
-
-# Instructions
-
-![](RackMultipart20200618-4-z9fy1x_html_dbba778feb0cae76.gif)
-
-| © Copyright IBM Corp. 2020 |
- | 3 |
-| --- | --- | --- |
+Instructions.
