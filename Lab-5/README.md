@@ -16,4 +16,4 @@ After completing this lab you will be familiar with these features of Cognos Ana
 
 ### Step 1.  Please click on the link below to download the instructions to your machine.
 
-[Instructions](https://github.com/bleonardb3/AI_POT_06-11-2020/blob/master/Lab-5/Cognos%20Lab%201.4.pdf).
+[Instructions](https://github.com/bleonardb3/AI_POT_06-11-2020/raw/master/Lab-5/Cognos%20Lab%201.4.pdf).
