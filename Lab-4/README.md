@@ -180,4 +180,4 @@ Adding a Machine Learning Service
 
 > <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture22.png"/>
 
-
+[Instructions](https://github.com/bleonardb3/AI_POT_06-11-2020/blob/master/Lab-4/Lab%204%20FranceCOVID-19%20Instructions.pdf).
