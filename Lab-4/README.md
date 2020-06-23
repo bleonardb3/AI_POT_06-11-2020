@@ -58,48 +58,41 @@ Prerequisites
 
 3.  Else click \"Sign Up\" to create a Watson studio account.
 
-![A screenshot of a cell phone screen with text Description
-automatically generated](media/image1.png){width="6.5in" height="2.7in"}
+> <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture1.png"/>
 
 4.  Pick an IBM Cloud region near you. Enter your email address as your
     user account. Click on \"Accept\" terms & conditions. Click \"Next\"
     button.
 
-![A screenshot of a cell phone Description automatically
-generated](media/image2.png){width="6.5in" height="4.35625in"}
+> <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture2.png"/>
+
 
 5.  Enter a password \> click \"Next\" button.
 
-![A screenshot of a cell phone Description automatically
-generated](media/image3.png){width="3.388888888888889in"
-height="5.231968503937008in"}
+> <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture3.png"/>
+
 
 6.  Verify your account. Enter the verification code sent to your email
     address. Click \"Next\" button.
 
-![A screenshot of a cell phone Description automatically
-generated](media/image4.png){width="3.9444444444444446in"
-height="3.02127624671916in"}
+> <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture4.png"/>
+
 
 7.  Enter your personal information. Click \"Next\" button.
 
-![A screenshot of a cell phone Description automatically
-generated](media/image5.png){width="4.819444444444445in"
-height="4.80090769903762in"}
+> <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture5.png"/>
+
 
 8.  Please indicate if and how IBM can keep you informed on IBM\'s
     products services. Click \"Create account\" button.
 
-![A screenshot of a social media post Description automatically
-generated](media/image6.png){width="4.652777777777778in"
-height="2.956700568678915in"}
+> <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture6.png"/>
+
 
 Note: Users will see an account progress bar. Click \"Login\" button to
 login to your account.
 
-![A picture containing clock Description automatically
-generated](media/image7.png){width="3.5416666666666665in"
-height="3.413417541557305in"}
+> <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture7.png"/>
 
 Create a Watson Studio project and set up the required services.
 ----------------------------------------------------------------
@@ -110,27 +103,19 @@ Create a Watson Studio project and set up the required services.
 
 2.  Click \"Get Started\" button.
 
-> ![A screenshot of a cell phone Description automatically
-> generated](media/image8.png){width="4.166666666666667in"
-> height="2.7412751531058617in"}
+> <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture8.png"/>
 
 3.  Click \"Maybe later\" for the introduction tour.
 
-![A screenshot of a cell phone Description automatically
-generated](media/image9.png){width="6.5in"
-height="2.6069444444444443in"}
+> <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture9.png"/>
 
 4.  Click \"Create a project\" button.
 
-![A screenshot of a cell phone Description automatically
-generated](media/image10.png){width="6.5in"
-height="2.6951388888888888in"}
+> <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture10.png"/>
 
 5.  Click on \"Create an empty project\".
 
-![A screenshot of a cell phone Description automatically
-generated](media/image11.png){width="4.930555555555555in"
-height="2.251936789151356in"}
+> <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture11.png"/>
 
 6.  Enter a project name; e.g. \"COVID-19 Decision Making\". Enter a
     description (optional) \" This project will apply predictive
@@ -145,78 +130,54 @@ height="2.251936789151356in"}
     button. Next, proceed to the section \"Adding a Machine Learning
     Service\" below.
 
-![A screenshot of a cell phone Description automatically
-generated](media/image12.png){width="6.5in" height="3.025in"}
+> <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture12.png"/>
 
 9.  Else click on the \"Cloud Object Storage\" URL.
 
-![A screenshot of a social media post Description automatically
-generated](media/image13.png){width="3.6666666666666665in"
-height="3.1040069991251094in"}
+> <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture13.png"/>
 
 10. Click the \"Lite\" plan. Enter a service name for your \"Object
     Storage\' service. Click \"Create\" button.
-
-![A screenshot of a social media post Description automatically
-generated](media/image14.png){width="6.5in"
-height="4.498611111111111in"}
+    
+> <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture14.png"/>
 
 11. Select your \"Cloud Object Storage\" service name from the \"Select
     storage service\" selection box. Click \"Create\" button.
 
-![A screenshot of a cell phone Description automatically
-generated](media/image12.png){width="6.5in" height="3.025in"}
+> <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture15.png"/>
 
 Adding a Machine Learning Service
 ---------------------------------
 
 1.  Click on the project Settings tab.
 
-![A screenshot of a cell phone Description automatically
-generated](media/image15.png){width="6.5in"
-height="2.5881944444444445in"}
+> <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture16.png"/>
 
 2.  Scroll down to Associated Services, then select Add service and
     select Watson.
 
-![A screenshot of a cell phone Description automatically
-generated](media/image16.png){width="6.5in"
-height="2.484722222222222in"}
+> <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture17.png"/>
 
 3.  Select the Machine Learning service.
 
-![A screenshot of a cell phone Description automatically
-generated](media/image17.png){width="6.5in"
-height="2.5833333333333335in"}
+> <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture18.png"/>
 
 4.  Select New.
 
-![A screenshot of a cell phone Description automatically
-generated](media/image18.png){width="5.652777777777778in"
-height="3.134996719160105in"}
+> <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture19.png"/>
 
 5.  Select the Lite plan.
 
-![A screenshot of a social media post Description automatically
-generated](media/image19.png){width="6.5in"
-height="2.8048611111111112in"}
+> <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture20.png"/>
 
 6.  Scroll down and click Create, then change the Service name to
     Machine Learning in the Confirm Creation panel and click Confirm.
-
-![A screenshot of a social media post Description automatically
-generated](media/image20.png){width="6.5in"
-height="2.8041666666666667in"}
+    
+> <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture21.png"/>
 
 7.  The Machine Learning service that you created should now appear in
     Associated Services.
 
-![](media/image21.png){width="6.5in" height="0.55625in"}
+> <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture22.png"/>
 
-Instructions
-============
 
-Please click on the link below to download the instructions to your
-machine.
-
-Instructions.
