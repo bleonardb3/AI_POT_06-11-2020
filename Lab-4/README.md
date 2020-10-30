@@ -101,47 +101,43 @@ Create a Watson Studio project and set up the required services.
     <https://dataplatform.cloud.ibm.com/>. Login to your Watson Studio
     account.
 
-2.  Click \"Get Started\" button.
+2.  Select your region; e.g. Dallas.  Enter your username then press the \"Continue\" button.  Enter your password then click the \"Logi in\" button.
 
 > <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture8.png"/>
 
-3.  Click \"Maybe later\" for the introduction tour.
+3.  Create a project by clicking on the \"Create a project\" hyperlink.
 
 > <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture9.png"/>
 
-4.  Click \"Create a project\" button.
-
-> <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture10.png"/>
-
-5.  Click on \"Create an empty project\".
+4.  Click on \"Create an empty project\".
 
 > <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture11.png"/>
 
-6.  Enter a project name; e.g. \"COVID-19 Decision Making\". Enter a
+5.  Enter a project name; e.g. \"COVID-19 Decision Making\". Enter a
     description (optional) \" This project will apply predictive
     analytics and optimization techniques to predict COVID-19 infections
     in areas and optimize response to transfer COVID-19 patients to less
     occupied COVIDD-19 hospitals.\"
 
-7.  Check \"Restrict who can be a collaborator\".
+6.  Check \"Restrict who can be a collaborator\".
 
-8.  If you already have an Object Storage\" instance -- please select it
+7.  If you already have an Object Storage\" instance -- please select it
     from the \"Select storage service\" selection box. Click \"Create\"
     button. Next, proceed to the section \"Adding a Machine Learning
     Service\" below.
 
 > <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture12.png"/>
 
-9.  Else click on the \"Cloud Object Storage\" URL.
+8.  Else click on the \"Cloud Object Storage\" URL.
 
 > <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture13.png"/>
 
-10. Click the \"Lite\" plan. Enter a service name for your \"Object
+9. Click the \"Lite\" plan. Enter a service name for your \"Object
     Storage\' service. Click \"Create\" button.
     
 > <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture14.png"/>
 
-11. Select your \"Cloud Object Storage\" service name from the \"Select
+10. Select your \"Cloud Object Storage\" service name from the \"Select
     storage service\" selection box. Click \"Create\" button.
 
 > <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture15.png"/>
@@ -158,27 +154,31 @@ Adding a Machine Learning Service
 
 > <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture17.png"/>
 
-3.  Select the Machine Learning service.
+3.  Click on the /"New service/" button.
 
 > <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture18.png"/>
 
-4.  Select New.
+4.  Select the Machine Learning service.
 
 > <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture19.png"/>
 
-5.  Select the Lite plan.
+5.  Make sure you select your project's region; e.g. /"Dallas".  Select the Lite plan.
 
 > <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture20.png"/>
 
-6.  Scroll down and click Create, then change the Service name to
-    Machine Learning in the Confirm Creation panel and click Confirm.
+6.  Scroll down until you see /"Configure your resource/", change the service name to something like "Machine_Learning_laa".  
+    Leave the /"Select a resource group/" value to /"default/".  Click the Create button.
     
 > <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture21.png"/>
 
-7.  The Machine Learning service that you created should now appear in
-    Associated Services.
+7.  The Machine Learning service that you created should now appear in Associated Services.  Check the checkbox next 
+    to the Machine Learning service you just created; e.g. /"Machine_Learning_laa/".  Click on the /"Associate service/" button.
 
 > <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture22.png"/>
+
+8.  The Machine Learning service should now have /"Associated"/ in the /"Status/" column.
+
+> <img src="https://raw.githubusercontent.com/bleonardb3/AI_POT_06-11-2020/master/Lab-4/images/Picture23.png"/>
 
 ### Please click on the link below to download the instructions to your machine.
 
